@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+import { Navigation } from "swiper";
+import 'swiper/swiper-bundle.css';
 import { useSwiper } from "swiper/react";
 import styles from "./Carousel.module.css";
 import "swiper/css";
@@ -36,7 +37,7 @@ function Carousel({ data, renderComponent }) {
         {data.map((ele) => (
           <SwiperSlide>{renderComponent(ele)}</SwiperSlide>
         ))}
-      </Swiper>
+      </ Swiper>
     </div>
   );
 }
