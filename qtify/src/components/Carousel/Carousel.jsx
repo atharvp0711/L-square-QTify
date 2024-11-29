@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
+import Navigation from "swiper";
 import 'swiper/swiper-bundle.css';
 import { useSwiper } from "swiper/react";
 import styles from "./Carousel.module.css";
